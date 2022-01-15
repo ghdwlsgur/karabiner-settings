@@ -1,12 +1,16 @@
 ### 키입력 체크 홈페이지: https://keyboardchecker.com
 
-### 키맵핑 방법
+### 1. 키맵핑 방법
 1. 카라비너 설치: https://karabiner-elements.pqrs.org
 2. ~/.config/karabiner/assets/complex_modifications 해당 디렉토리에 json 파일 추가 
 > caps_lock.json, exchange.json
 3. Karabiner -> Complex modifications -> Rules -> Add rule -> Enable
 
-### 해피해킹 키보드 메뉴얼
+### 2. right_option -> 한영변환 적용 
+1. Karabiner -> Simple modifications -> Target device: HHKB-Hybrid_1(PFU Limited) -> right_option : f19
+2. 시스템 환경설정 -> 키보드 -> 입력 소스 -> 입력 메뉴에서 다음 소스 선택 F19 (input right_option)
+
+### 3. 해피해킹 키보드 메뉴얼
 ※ -> 표시는 다음 단계를 의미 합니다.
 ※ # 표시는 0, 1, 2, 3, 4 단일 숫자를 의미 합니다.
 ※ + 표시는 순서대로 같이 눌러야 한다는 의미 입니다.

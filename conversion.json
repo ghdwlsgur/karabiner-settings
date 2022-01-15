@@ -2,14 +2,14 @@
 	"title": "right_command 한영전환",
 	"rules": [
 		{
-			"description": "left_command, right_command + spacebar -> right_command",
+			"description": "left_command, right_command + spacebar -> right_option",
 			"manipulators": [
 			{ 
 				"type": "basic",
 				"from": { 
 					"key_code": "right_command",
 					"modifiers": { 
-						"optional": [ "right_command" ] }
+						"optional": [ "right_option" ] }
 				},
         "to_if_alone": [
 					{

@@ -1,7 +1,7 @@
 ### 키입력 체크 홈페이지: https://keyboardchecker.com
 
 ### 키맵핑 방법
-1. 카라비너 설치
+1. 카라비너 설치: https://karabiner-elements.pqrs.org
 2. ~/.config/karabiner/assets/complex_modifications 해당 디렉토리에 json 파일 추가 
 > caps_lock.json, exchange.json
 3. Karabiner -> Complex modifications -> Rules -> Add rule -> Enable

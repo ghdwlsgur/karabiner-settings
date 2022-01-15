@@ -1,0 +1,30 @@
+{
+	"title": "right_option 한영전환",
+	"rules": [
+		{
+			"description": "left_command, right_command + spacebar -> right_option",
+			"manipulators": [
+			{ 
+				"type": "basic",
+				"from": { 
+					"key_code": "right_option",
+					"modifiers": { 
+						"optional": [ "right_option" ] }
+				},
+        "to_if_alone": [
+					{
+						"key_code": "spacebar",
+						"modifiers": [
+							"left_command"
+						]
+					}
+        ],
+        "to": [ 
+					{ 
+						"key_code": "right_option"
+					}
+        ]
+      }
+		]
+	}]
+}

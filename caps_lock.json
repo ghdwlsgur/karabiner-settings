@@ -1,0 +1,23 @@
+{
+	"title": "left_control 대소문자 변환",
+	"rules": [
+		{
+			"description": "left_control -> caps_lock",
+			"manipulators": [
+			{ 
+				"type": "basic",    
+				"from": { 
+					"key_code": "left_control",
+          "modifiers": { 
+						"optional": [ "any" ] }
+          
+				},
+        "to": [ 
+					{ 
+						"key_code": "caps_lock"
+					}
+        ]
+      }
+		]
+	}]
+}

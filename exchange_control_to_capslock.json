@@ -1,0 +1,38 @@
+{
+	"title": "Control과 Caps_lock 자리 변경",
+	"rules": [
+		{
+			"description": "Control과 Caps_lock 자리 변경",
+			"manipulators": [
+        { 
+          "type": "basic",    
+          "from": { 
+            "key_code": "left_control",
+            "modifiers": {
+              "optional": [ "any" ] 
+            }            
+          },
+          "to": [ 
+            { 
+              "key_code": "caps_lock"
+            }
+          ]
+        },	
+        { 
+          "type": "basic",    
+          "from": { 
+            "key_code": "caps_lock",
+            "modifiers": {
+              "optional": [ "any" ] 
+            }            
+          },
+          "to": [ 
+            { 
+              "key_code": "left_control"
+            }
+          ]
+        }
+      ]
+  	}
+  ]
+}

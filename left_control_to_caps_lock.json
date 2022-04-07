@@ -1,22 +1,21 @@
 {
-	"title": "left_control 대소문자 변환",
+	"title": "left_control에 caps_lock 할당",
 	"rules": [
 		{
-			"description": "left_control -> caps_lock",
+			"description": "left_control에 caps_lock 할당",
 			"manipulators": [
 			{ 
 				"type": "basic",    
 				"from": { 
 					"key_code": "left_control",
           "modifiers": { 
-						"optional": [ "any" ] }
-          
+						"optional": [ "any" ] }          
 				},
         "to": [ 
 					{ 
 						"key_code": "caps_lock"
 					}
-        ]
+        ]	
       }
 		]
 	}]

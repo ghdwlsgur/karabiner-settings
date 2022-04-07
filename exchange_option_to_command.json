@@ -1,8 +1,8 @@
 {
-	"title": "tab 대소문자 변환",
+	"title": "Command와 Option 자리 변경",
 	"rules": [
 		{	
-			"description": "exchange left/right_command into left/right_option",
+			"description": "Command와 Option 자리 변경",
 			"manipulators": [
 			{ 
 				"type": "basic",    

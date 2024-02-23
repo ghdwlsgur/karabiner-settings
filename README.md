@@ -1,12 +1,25 @@
 ### 키입력 체크 홈페이지: https://keyboardchecker.com
 
-## 키맵핑
+HHKB Professional HYBRID
+
+## 딥스위치 설정
+
+- 1: Off
+- 2: **On**
+- 3: **On**
+- 4: Off
+- 5: Off
+- 6: **On**
+
+## 1. 키맵핑
 
 > 1. 카라비너 설치: https://karabiner-elements.pqrs.org
 > 2. `~/.config/karabiner/assets/complex_modifications` 해당 디렉토리에 json 파일 추가
 > 3. Karabiner -> `Complex modifications` -> `Rules` -> `Add rule` -> `Enable`
+>
+> **`Control과 Caps_lock 자리 변경`만 Enable**
 
-## right_option -> 한영변환 적용
+## 2. right_option -> 한영변환 적용
 
 #### `right_option => f18`
 
